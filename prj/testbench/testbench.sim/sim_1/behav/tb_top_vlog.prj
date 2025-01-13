@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../../rtl/ad9172/value_att_round.v"
+verilog xil_defaultlib  "../../../dds_16chl.v"
+verilog xil_defaultlib  "../../../../../rtl/ad9172/dds_for_7_series_iq.v"
+verilog xil_defaultlib  "../../../../../rtl/ad9172/ad9172_top.v"
+verilog xil_defaultlib  "../../../../../sim/tb/testbench.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
